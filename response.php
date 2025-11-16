@@ -46,19 +46,6 @@ try {
             'temperature' => 0.3,
         ]
     ]);
-
-    error_log("Response received");
-
-    if (isset($completions->response) && !empty(trim($completions->response))) {
-        $response = trim($completions->response);
-        error_log("Response content: " . $response);
-        echo $response;
-    } else {
-        error_log("Empty or no response");
-        error_log("Full response: " . print_r($completions, true));
-        echo "I can only answer questions about Lenovo Legion 5.";
-    }
 } catch (Exception $e) {
-    error_log("Exception: " . $e->getMessage());
     echo "Error: " . $e->getMessage();
 }
