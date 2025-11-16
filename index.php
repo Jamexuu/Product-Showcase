@@ -134,7 +134,7 @@
                     <div class="card-body p-4 text-center">
                         <div class="fa-solid fa-microchip mb-3" style="color: white; font-size: 3rem;"></div>
                         <div class="h5 text-white text-center">Processor</div>
-                        <div class="h6 text-white text-center">AMD Ryzen™ 7 260 processor</div>
+                        <div class="h6 text-white text-center">NVIDIA GeForce RTX 3070 Laptop GPU</div>
                     </div>
                 </div>
             </div>
@@ -144,7 +144,7 @@
                         <div class="fa-solid fa-display mb-3" style="color: white; font-size: 3rem;"></div>
                         <div class="h5 text-white text-center">Graphics</div>
                         <div class="h6 text-white text-center">
-                            NVIDIA<sup>&reg;</sup> GeForce RTX<sup>&reg;</sup> 5060<br/>Laptop GPU
+                            NVIDIA<sup>&reg;</sup> GeForce RTX<sup>&reg;</sup> 4060<br/>Laptop GPU
                         </div>
                     </div>
                 </div>
@@ -174,7 +174,7 @@
                     <div class="card-body p-4 text-center">
                         <div class="fa-solid fa-memory mb-3" style="color: white; font-size: 3rem;"></div>
                         <div class="h5 text-white text-center">Memory</div>
-                        <div class="h6 text-white text-center">Up to 32GB DDR5 5600MT/s</div>
+                        <div class="h6 text-white text-center">Up to 32GB DDR4-3200</div>
                     </div>
                 </div>
             </div> 

@@ -1,0 +1,17 @@
+{
+    "Lenovo Legion 5": {
+        "Processor": "AMD Ryzen 7 5800H",
+        "Graphics": "NVIDIA GeForce RTX 3070 Laptop GPU",
+        "RAM": "Up to 32GB DDR4-3200",
+        "Storage": "Up to 2TB M.2 PCIe Gen4 SSD",
+        "Display": "15.6 inch WQHD (2560x1440), IPS, 165Hz, 100% sRGB",
+        "Battery": "80Wh Li-Polymer with Rapid Charge Pro (50% in 30min)",
+        "Keyboard": "RGB backlight options, numeric keypad",
+        "Ports": "4x USB-A, 2x USB-C (with DisplayPort & Power Delivery), HDMI 2.1, RJ-45 Ethernet",
+        "Wireless": "Wi-Fi 6 + Bluetooth 5.1",
+        "Weight": "2.4 kg (5.3 lbs)",
+        "Price": "84,995 Php",
+        "touchscreen": "No",
+        "fingerprint_reader": "No"
+    }
+}
