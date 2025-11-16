@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(135deg,#1a1a1a 0%, #2d1b2e 50%, #1f1f1f 100%);
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand img {
+    height: 2.5rem;
+    width: auto;
+}
+
+.glass {
+    background: rgba(13, 110, 253, 0.1) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.carousel-inner {
+    height: 50vh;
+    overflow: hidden;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.chatbot-toggle svg {
+    width: 32px;
+    height: 32px;
+    fill: white;
+}
+
+.chatbot-window {
+    animation: slideUp 0.3s ease;
+    width: 380px;
+}
+
+.chat-avatar {
+    width: 45px;
+    height: 45px;
+}
+
+.chat-messages::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+    background: #cbd5e0;
+    border-radius: 10px;
+}
+
+.message-bubble {
+    max-width: 80%;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .chatbot-window {
+        width: 90vw !important;
+        max-height: 60vh;
+    }
+}
