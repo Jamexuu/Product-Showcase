@@ -42,7 +42,7 @@
 
     <div class="card-footer bg-white border-top p-3 rounded-bottom-3">
         <div class="d-flex gap-2 align-items-center">
-            <input type="text" id="chatInput" class="form-control rounded-pill border-2" placeholder="Send your question...">
+            <input type="text" id="chatInput" class="form-control rounded-pill border-2 border-dark shadow-none" placeholder="Send your question...">
             <button class="btn btn-link text-dark p-2 material-symbols-rounded lh-1 fs-3" id="sendBtn">send</button>
         </div>
     </div>

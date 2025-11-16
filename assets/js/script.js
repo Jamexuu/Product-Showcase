@@ -77,16 +77,14 @@ sendBtn.addEventListener("click", () => {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ prompt: text }),
         })
-            .then((res) => res.text())
-            .then((reply) => {
-                document.getElementById(replyId).textContent = reply;
-            })
-            .catch((error) => {
-                console.error("Error:", error);
-                document.getElementById(
-                    replyId
-                ).textContent = `Error: ${error.message}`;
-            });
+        .then((res) => res.text())
+        .then((reply) => {
+            document.getElementById(replyId).textContent = reply;
+        })
+        .catch((error) => {
+            console.error("Error:", error);
+            document.getElementById(replyId).textContent = `Error: ${error.message}`;
+        });
     }
 });
 
